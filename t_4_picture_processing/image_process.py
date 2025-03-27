@@ -25,4 +25,3 @@ if __name__ == '__main__':
                 print(f"图片 {image} 已调整大小！")
             except Exception as e:
                 print(f"调整图片 {image} 大小时发生错误: {e}")
-## 方法总结
