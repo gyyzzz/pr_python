@@ -81,48 +81,12 @@ Yixiaohan/show-me-the-code中的python练习题
 
 ---
 
-3. **代码逻辑中的方法调用**
+## 0006.统计单词出现次数
 
-- **`resize_image(image_path, target_width, target_height)`**：
-  - 自定义的函数，用于调整图片大小并保存到新的路径。
-  - 调用了以下方法：
-    - `PILImage.open()`：打开图片。
-    - `Image.resize()`：调整图片大小。
-    - `Image.save()`：保存调整后的图片。
+目录下文件遍历
 
----
+调用练习3中的count_word函数，统计目录下所有txt文件中单词出现的次数，返回的是一个排序好的字典列表
 
-4. **异常处理**
-
-- **`try...except` 块**：
-  - 用于捕获和处理运行时可能发生的异常。
-  - 在代码中用于捕获图片处理过程中可能发生的错误，并打印错误信息。
-  - 示例：
-    ```python
-    try:
-        resize_image(image_path, 2400, 1080)
-        print(f"图片 {image} 已调整大小！")
-    except Exception as e:
-        print(f"调整图片 {image} 大小时发生错误: {e}")
-    ```
-
----
-
-总结
-
-这段代码使用了以下库和方法：
-
-1. **`os` 模块**：
-
-   - `os.listdir()`：列出文件夹内容。
-   - `os.path.join()`：拼接路径。
-2. **`Pillow` 库**：
-
-   - `PIL.Image.open()`：打开图片。
-   - `Image.resize()`：调整图片大小。
-   - `Image.save()`：保存图片。
-3. **异常处理**：
-
-   - `try...except`：捕获并处理图片处理过程中的错误。
-
-这些方法共同实现了从文件夹中读取图片、调整图片大小并保存的功能，同时对可能的错误进行了处理。
+1. 使用os.listdir()获取目录下文件列表，files.lower().endswith(('.txt'))判断文件是否为txt文件
+2. 使用os.path.join()拼接文件路径
+3. 数组切片[:5]获取前5个元素

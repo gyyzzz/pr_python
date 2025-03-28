@@ -5,6 +5,7 @@
 3. 按照单词出现的次数从高到低排序，输出结果
 """
 import re
+import os
 
 
 def count_word(file):
@@ -19,7 +20,9 @@ def count_word(file):
         else:
             word_dict[word] =1
     sorted_dict_words = sorted(word_dict.items(), key=lambda x:x[1], reverse=True)
+    print(type(sorted_dict_words))
     return sorted_dict_words
+
 
 
 if __name__ == '__main__':
@@ -27,3 +30,7 @@ if __name__ == '__main__':
     result = count_word(file)
     for word, count in result:
         print(f'{word}：出现{count}次')
+
+
+
+
