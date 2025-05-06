@@ -22,4 +22,10 @@ Yixiaohan/show-me-the-code中的python练习题
 
 **第 0009 题：** 一个HTML文件，找出里面的**链接**。
 
+**第 0010题：** 一个HTML文件，找出里面的**链接**。
+
+**第 0011 题：** 使用 Python 生成类似于下图中的**字母验证码图片**
+
+[![字母验证码](https://camo.githubusercontent.com/b00b37e9f525aace4d463f2849cfe0403f55859940b1af956e28e55ee6dcd269/687474703a2f2f692e696d6775722e636f6d2f615668626567562e6a7067)](https://camo.githubusercontent.com/b00b37e9f525aace4d463f2849cfe0403f55859940b1af956e28e55ee6dcd269/687474703a2f2f692e696d6775722e636f6d2f615668626567562e6a7067)
+
 # 方法总结
