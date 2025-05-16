@@ -32,14 +32,13 @@ Yixiaohan/show-me-the-code中的python练习题
 北京
 程序员
 公务员
-领导
 牛比
 牛逼
 你娘
 你妈
 love
 sex
-jiangge
+sb
 ```
 
 **第 0012 题：** 敏感词文本文件 filtered\_words.txt，里面的内容 和 0011题一样，当用户输入敏感词语，则用 星号 \* 替换，例如当用户输入「北京是个好城市」，则变成「\*\*是个好城市」。
