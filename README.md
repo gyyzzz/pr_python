@@ -56,3 +56,36 @@ sb
 ```
 
 请将上述内容写到 student.xls 文件中
+
+[![student.xls](https://camo.githubusercontent.com/ea26a9a16667566b1a5a711ae90f9d7e750d21d04b3d8b0097c0cb9109ad3b40/687474703a2f2f692e696d6775722e636f6d2f6e50446c706d652e6a7067)](https://camo.githubusercontent.com/ea26a9a16667566b1a5a711ae90f9d7e750d21d04b3d8b0097c0cb9109ad3b40/687474703a2f2f692e696d6775722e636f6d2f6e50446c706d652e6a7067)
+
+* [阅读资料](http://www.cnblogs.com/skynet/archive/2013/05/06/3063245.html) 腾讯游戏开发 XML 和 Excel 内容相互转换
+
+**第 0015 题：** 纯文本文件 city.txt为城市信息, 里面的内容（包括花括号）如下所示：
+
+```
+{
+    "1" : "上海",
+    "2" : "北京",
+    "3" : "成都"
+}
+```
+
+请将上述内容写到 city.xls 文件中，如下图所示：
+
+[![city.xls](https://camo.githubusercontent.com/ee66698f3d42c07316c0c607bcc9a7221930ce7b4d9c73a5b5b0ad885bcb505a/687474703a2f2f692e696d6775722e636f6d2f724f4862557a672e706e67)](https://camo.githubusercontent.com/ee66698f3d42c07316c0c607bcc9a7221930ce7b4d9c73a5b5b0ad885bcb505a/687474703a2f2f692e696d6775722e636f6d2f724f4862557a672e706e67)
+
+
+**第 0016 题：** 纯文本文件 numbers.txt, 里面的内容（包括方括号）如下所示：
+
+```
+[
+	[1, 82, 65535], 
+	[20, 90, 13],
+	[26, 809, 1024]
+]
+```
+
+请将上述内容写到 numbers.xls 文件中，如下图所示：
+
+[![numbers.xls](https://camo.githubusercontent.com/1632600104a0151e6cf999732de4f067e0e3e8e74ae32ab2efa58e37f467bc50/687474703a2f2f692e696d6775722e636f6d2f69757a305062762e706e67)](https://camo.githubusercontent.com/1632600104a0151e6cf999732de4f067e0e3e8e74ae32ab2efa58e37f467bc50/687474703a2f2f692e696d6775722e636f6d2f69757a305062762e706e67)
