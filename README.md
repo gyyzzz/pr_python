@@ -75,7 +75,6 @@ sb
 
 [![city.xls](https://camo.githubusercontent.com/ee66698f3d42c07316c0c607bcc9a7221930ce7b4d9c73a5b5b0ad885bcb505a/687474703a2f2f692e696d6775722e636f6d2f724f4862557a672e706e67)](https://camo.githubusercontent.com/ee66698f3d42c07316c0c607bcc9a7221930ce7b4d9c73a5b5b0ad885bcb505a/687474703a2f2f692e696d6775722e636f6d2f724f4862557a672e706e67)
 
-
 **第 0016 题：** 纯文本文件 numbers.txt, 里面的内容（包括方括号）如下所示：
 
 ```
@@ -89,3 +88,25 @@ sb
 请将上述内容写到 numbers.xls 文件中，如下图所示：
 
 [![numbers.xls](https://camo.githubusercontent.com/1632600104a0151e6cf999732de4f067e0e3e8e74ae32ab2efa58e37f467bc50/687474703a2f2f692e696d6775722e636f6d2f69757a305062762e706e67)](https://camo.githubusercontent.com/1632600104a0151e6cf999732de4f067e0e3e8e74ae32ab2efa58e37f467bc50/687474703a2f2f692e696d6775722e636f6d2f69757a305062762e706e67)
+
+
+**第 0017 题：** 将 第 0014 题中的 student.xls 文件中的内容写到 student.xml 文件中，如
+
+下所示：
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<students>
+<!-- 
+	学生信息表
+	"id" : [名字, 数学, 语文, 英文]
+-->
+{
+	"1" : ["张三", 150, 120, 100],
+	"2" : ["李四", 90, 99, 95],
+	"3" : ["王五", 60, 66, 68]
+}
+</students>
+</root>
+```
